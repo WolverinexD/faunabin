@@ -9,7 +9,7 @@ from faunadb.client import FaunaClient
 
 app = Flask(__name__)
 Bootstrap(app)
-client = FaunaClient(secret="your-secret-here")
+client = FaunaClient(secret="fnAEdOdrSzAASZi0HjYoTP99NjiQTTDcnM2t-aHD")
 
 
 @app.route("/", methods=["GET", "POST"])
